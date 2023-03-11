@@ -1,0 +1,19 @@
+body{
+	height: 3000px;
+	background-color: lemonchiffon;
+}
+
+.jumbotron{
+	padding-top: 4rem;
+}
+
+ul .navbar-nav li .nav-item{
+	display: inline-block;
+}
+.navbar-nav .nav-item .nav-link{
+	padding-left: 1rem;
+	color: black;
+}
+.nav-item a:hover{
+	border-bottom:3px solid;
+}

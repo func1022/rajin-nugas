@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rajin Nugas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="#">
+          <img src="img/logo-rajin-nugas.png" alt="logo" width="40" height="35" class="d-inline-block align-top">
+          Rajin Nugas
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Akuntansi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Akuntansi Dasar</a></li>
+                  <li><a class="dropdown-item" href="#">Akuntansi Keuangan</a></li>
+                  <li><a class="dropdown-item" href="#">Akuntansi Manajemen</a></li>
+                  <li><a class="dropdown-item" href="#">Akuntansi Keuangan Menengah</a></li>
+                  <li><a class="dropdown-item" href="#">Akuntansi Keuangan Lanjutan</a></li>
+                  <li><a class="dropdown-item" href="#">Akuntansi Perbankan</a></li>
+                  <li><a class="dropdown-item" href="#">Akuntansi Syariah</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">PSAK</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Microsoft Office
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Microsoft Acces</a></li>
+                  <li><a class="dropdown-item" href="#">Microsoft Excel</a></li>
+                  <li><a class="dropdown-item" href="#">Microsoft Powerpoint</a></li>
+                  <li><a class="dropdown-item" href="#">Microsoft Word</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Visual Basic Application</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pemprograman
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">HTML, CSS, JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">Java</a></li>
+                  <li><a class="dropdown-item" href="#">C/C++</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">All</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Jumbotron Start -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container"> 
+            <h1 class="display-4 text-center fw-bold">Welcome!</h1>
+            <p class="lead text-center">Belajar dengan cara yang menyenangkan!</p>
+        </div>
+    </div>
+
+    <!-- Gambar Bergerak  -->
+    <!-- Carousel -->
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Tombol navigasi -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+              <!-- Indikator slide -->
+              <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+              </ol>
+
+              <div class="carousel-item active text-center">
+                <img src="img/slide/gambar1.jpg" class="d-block w-100 text-center" alt="Gambar 1">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="img/slide/gambar2.jpg" class="d-block w-100 text-center" alt="Gambar 2">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="img/slide/gambar3.jpg" class="d-block w-100 text-center" alt="Gambar 3">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="img/slide/gambar4.jpg" class="d-block w-100 text-center" alt="Gambar 4">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="img/slide/gambar5.jpg" class="d-block w-100 text-center" alt="Gambar 5">
+              </div>
+            </div>
+         </div>
+       </div>
+     </div>
+    <!-- Jumbotron End -->
+
+    <!-- JS -->
+    <!-- Load Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Script untuk membuat slide gambar bergerak secara otomatis -->
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 1500 // ganti 2000 dengan durasi slide yang diinginkan dalam milidetik
+        });
+      });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
