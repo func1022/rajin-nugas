@@ -18,7 +18,10 @@ ul .navbar-nav li .nav-item{
 	border-bottom:3px solid;
 }
 
-#sec_akuntansi .container .row .col h2{
+#sec_akuntansi .container .row .col h2,
+#sec_microsoft .container .row .col h2,
+#sec_pemprograman .container .row .col h2,
+#sec_services .container .row .col h2{
 	padding-top: 5rem;
 }
 
